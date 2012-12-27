@@ -11,7 +11,7 @@ class Difficulties
 			autoSpot=1;
 			cameraShake=0;
 			clockIndicator=1;
-			deathMessages=1;
+			deathMessages=0;
 			enemyTag=0;
 			friendlyTag=1;
 			hud=1;
@@ -43,7 +43,7 @@ class Difficulties
 			autoSpot=1;
 			cameraShake=1;
 			clockIndicator=1;
-			deathMessages=1;
+			deathMessages=0;
 			enemyTag=0;
 			friendlyTag=0;
 			hud=1;
