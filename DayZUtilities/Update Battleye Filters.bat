@@ -20,7 +20,7 @@ move /y addmagazinecargo.txt ../DayZConfig/BattlEye/
 move /y addweaponcargo.txt ../DayZConfig/BattlEye/
 move /y attachto.txt ../DayZConfig/BattlEye/
 move /y deletevehicle.txt ../DayZConfig/BattlEye/
-move /y puplicvariable.txt ../DayZConfig/BattlEye/
+move /y publicvariable.txt ../DayZConfig/BattlEye/
 move /y puplicvariableval.txt ../DayZConfig/BattlEye/
 move /y puplicvariablevar.txt ../DayZConfig/BattlEye/
 move /y remotecontrol.txt ../DayZConfig/BattlEye/
