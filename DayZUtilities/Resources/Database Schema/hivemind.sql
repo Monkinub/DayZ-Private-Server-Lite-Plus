@@ -28,7 +28,7 @@ CREATE TABLE `character_data` (
   `KillsB` mediumint(5) unsigned NOT NULL DEFAULT '0',
   `Model` varchar(32) NOT NULL DEFAULT '"Survivor1_DZ"',
   PRIMARY KEY (`CharacterID`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of character_data
@@ -64,42 +64,42 @@ CREATE TABLE `object_classes` (
 -- ----------------------------
 -- Records of object_classes
 -- ----------------------------
-INSERT INTO `object_classes` VALUES ('ATV_US_EP1', '1', '3', '0.05000', '[[\"motor\",1],[\"palivo\",0.368047],[\"wheel_1_1_steering\",0.331809],[\"wheel_1_2_steering\",1],[\"wheel_2_1_steering\",0.0473658],[\"wheel_2_2_steering\",0.332376],[\"karoserie\",0.355141],[\"wheel_1_3_steering\",0.0401988],[\"wheel_2_3_steering\",1]]');
-INSERT INTO `object_classes` VALUES ('LandRover_CZ_EP1', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
+INSERT INTO `object_classes` VALUES ('ATV_US_EP1', '1', '5', '0.05000', '[[\"motor\",1],[\"palivo\",0.368047],[\"wheel_1_1_steering\",0.331809],[\"wheel_1_2_steering\",1],[\"wheel_2_1_steering\",0.0473658],[\"wheel_2_2_steering\",0.332376],[\"karoserie\",0.355141],[\"wheel_1_3_steering\",0.0401988],[\"wheel_2_3_steering\",1]]');
+INSERT INTO `object_classes` VALUES ('LandRover_CZ_EP1', '1', '2', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
 INSERT INTO `object_classes` VALUES ('Lada2_TK_CIV_EP1', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
-INSERT INTO `object_classes` VALUES ('M1030', '1', '3', '0.05000', '[[\"motor\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_1_2_steering\",1]]');
+INSERT INTO `object_classes` VALUES ('M1030', '1', '5', '0.05000', '[[\"motor\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_1_2_steering\",1]]');
 INSERT INTO `object_classes` VALUES ('LandRover_TK_CIV_EP1', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
-INSERT INTO `object_classes` VALUES ('Old_moto_TK_Civ_EP1', '1', '3', '0.05000', '[[\"motor\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_1_2_steering\",1]]');
-INSERT INTO `object_classes` VALUES ('S1203_TK_CIV_EP1', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
-INSERT INTO `object_classes` VALUES ('SUV_TK_CIV_EP1', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
-INSERT INTO `object_classes` VALUES ('S1203_ambulance_EP1', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
-INSERT INTO `object_classes` VALUES ('Old_bike_TK_CIV_EP1', '1', '5', '0.05000', '[]');
-INSERT INTO `object_classes` VALUES ('TT650_TK_CIV_EP1', '1', '3', '0.05000', '[[\"motor\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_1_2_steering\",1]]');
-INSERT INTO `object_classes` VALUES ('UAZ_Unarmed_TK_CIV_EP1', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
-INSERT INTO `object_classes` VALUES ('Volha_1_TK_CIV_EP1', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
+INSERT INTO `object_classes` VALUES ('Old_moto_TK_Civ_EP1', '1', '5', '0.05000', '[[\"motor\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_1_2_steering\",1]]');
+INSERT INTO `object_classes` VALUES ('S1203_TK_CIV_EP1', '1', '3', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
+INSERT INTO `object_classes` VALUES ('SUV_TK_CIV_EP1', '1', '2', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
+INSERT INTO `object_classes` VALUES ('S1203_ambulance_EP1', '1', '2', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
+INSERT INTO `object_classes` VALUES ('Old_bike_TK_CIV_EP1', '1', '10', '0.05000', '[]');
+INSERT INTO `object_classes` VALUES ('TT650_TK_CIV_EP1', '1', '5', '0.05000', '[[\"motor\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_1_2_steering\",1]]');
+INSERT INTO `object_classes` VALUES ('UAZ_Unarmed_TK_CIV_EP1', '1', '2', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
+INSERT INTO `object_classes` VALUES ('Volha_1_TK_CIV_EP1', '1', '5', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
 INSERT INTO `object_classes` VALUES ('Volha_2_TK_CIV_EP1', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
 INSERT INTO `object_classes` VALUES ('VolhaLimo_TK_CIV_EP1', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
-INSERT INTO `object_classes` VALUES ('hilux1_civil_3_open_EP1', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
-INSERT INTO `object_classes` VALUES ('HMMWV', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
-INSERT INTO `object_classes` VALUES ('Ikarus', '1', '2', '0.05000', '[[\"motor\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_1_steering\",0.0156045],[\"wheel_1_3_steering\",0.0401988],[\"wheel_2_3_steering\",1]]');
+INSERT INTO `object_classes` VALUES ('hilux1_civil_3_open_EP1', '1', '2', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
+INSERT INTO `object_classes` VALUES ('HMMWV', '1', '2', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
+INSERT INTO `object_classes` VALUES ('Ikarus', '1', '3', '0.05000', '[[\"motor\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_1_steering\",0.0156045],[\"wheel_1_3_steering\",0.0401988],[\"wheel_2_3_steering\",1]]');
 INSERT INTO `object_classes` VALUES ('Lada1', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
 INSERT INTO `object_classes` VALUES ('LadaLM', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
 INSERT INTO `object_classes` VALUES ('MMT_Civ', '1', '5', '0.05000', '[]');
-INSERT INTO `object_classes` VALUES ('Lada2', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
-INSERT INTO `object_classes` VALUES ('Skoda', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
+INSERT INTO `object_classes` VALUES ('Lada2', '1', '2', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
+INSERT INTO `object_classes` VALUES ('Skoda', '1', '2', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
 INSERT INTO `object_classes` VALUES ('SkodaBlue', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
 INSERT INTO `object_classes` VALUES ('SkodaGreen', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
 INSERT INTO `object_classes` VALUES ('SkodaRed', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
-INSERT INTO `object_classes` VALUES ('tractor', '1', '2', '0.05000', '[[\"motor\",1],[\"sklo predni P\",0.0275828],[\"karoserie\",1],[\"palivo\",0.00205799],[\"wheel_2_1_steering\",0.0156045],[\"wheel_1_3_steering\",1],[\"wheel_2_3_steering\",0.0161143],[\"wheel_1_2_steering\",0.0082898],[\"glass1\",1],[\"glass3\",0.0224173]]');
-INSERT INTO `object_classes` VALUES ('hilux1_civil_2_covered', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
+INSERT INTO `object_classes` VALUES ('tractor', '1', '4', '0.05000', '[[\"motor\",1],[\"sklo predni P\",0.0275828],[\"karoserie\",1],[\"palivo\",0.00205799],[\"wheel_2_1_steering\",0.0156045],[\"wheel_1_3_steering\",1],[\"wheel_2_3_steering\",0.0161143],[\"wheel_1_2_steering\",0.0082898],[\"glass1\",1],[\"glass3\",0.0224173]]');
+INSERT INTO `object_classes` VALUES ('hilux1_civil_2_covered', '1', '2', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
 INSERT INTO `object_classes` VALUES ('hilux1_civil_1_open', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
 INSERT INTO `object_classes` VALUES ('datsun1_civil_3_open', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
 INSERT INTO `object_classes` VALUES ('datsun1_civil_2_covered', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
-INSERT INTO `object_classes` VALUES ('datsun1_civil_1_open', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
+INSERT INTO `object_classes` VALUES ('datsun1_civil_1_open', '1', '2', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
 INSERT INTO `object_classes` VALUES ('car_sedan', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
 INSERT INTO `object_classes` VALUES ('car_hatchback', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
-INSERT INTO `object_classes` VALUES ('VWGolf', '1', '1', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
-INSERT INTO `object_classes` VALUES ('V3S_Civ', '1', '1', '0.05000', '[[\"wheel_1_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_1_3_steering\",0.0401988],[\"wheel_2_1_steering\",0.0156045],[\"wheel_2_3_steering\",1],[\"motor\",0.8],[\"palivo\",0.8]]');
+INSERT INTO `object_classes` VALUES ('VWGolf', '1', '3', '0.05000', '[[\"motor\",0.8],[\"karoserie\",1],[\"palivo\",0.8],[\"wheel_1_1_steering\",1],[\"wheel_2_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_2_2_steering\",1]]');
+INSERT INTO `object_classes` VALUES ('V3S_Civ', '1', '2', '0.05000', '[[\"wheel_1_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_1_3_steering\",0.0401988],[\"wheel_2_1_steering\",0.0156045],[\"wheel_2_3_steering\",1],[\"motor\",0.8],[\"palivo\",0.8]]');
 INSERT INTO `object_classes` VALUES ('UralCivil2', '1', '1', '0.05000', '[[\"wheel_1_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_1_3_steering\",0.0401988],[\"wheel_2_1_steering\",0.0156045],[\"wheel_2_3_steering\",1],[\"motor\",0.8],[\"palivo\",0.8]]');
 INSERT INTO `object_classes` VALUES ('UralOpen_CDF', '1', '1', '0.05000', '[[\"wheel_1_1_steering\",1],[\"wheel_1_2_steering\",1],[\"wheel_1_3_steering\",0.0401988],[\"wheel_2_1_steering\",0.0156045],[\"wheel_2_3_steering\",1],[\"motor\",0.8],[\"palivo\",0.8]]');
 INSERT INTO `object_classes` VALUES ('DZP_Mi17', '1', '1', '0.05000', '[[\"glass1\",1],[\"glass2\",1],[\"glass3\",1],[\"glass4\",1],[\"glass5\",1],[\"NEtrup\",1.1998],[\"motor\",1],[\"elektronika\",1],[\"mala vrtule\",1],[\"velka vrtule\",1],[\"munice\",1.07084],[\"sklo predni P\",1.04818],[\"sklo predni L\",1.11816],[\"glass6\",1.0402]]');
@@ -124,7 +124,7 @@ CREATE TABLE `object_data` (
   `Fuel` varchar(20) DEFAULT NULL,
   `Datestamp` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`ObjectID`)
-) ENGINE=MyISAM AUTO_INCREMENT=120 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
+) ENGINE=MyISAM AUTO_INCREMENT=184 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;
 
 -- ----------------------------
 -- Records of object_data
@@ -209,6 +209,42 @@ INSERT INTO `object_spawns` VALUES ('61', 'PBX', '[177,[5947.77,2004.61,0.002]]'
 INSERT INTO `object_spawns` VALUES ('62', 'PBX', '[336,[13061,8448.32,0.001]]', null);
 INSERT INTO `object_spawns` VALUES ('63', 'PBX', '[109,[13903.7,11713.7,0.001]]', null);
 INSERT INTO `object_spawns` VALUES ('64', 'DZP_MH6J', '[241,[4520.36,10779.9,0.082]]\r\n', null);
+INSERT INTO `object_spawns` VALUES ('65', 'UAZ_Unarmed_TK_CIV_EP1', '[238,[9254.46,4979.14,0.002]]', null);
+INSERT INTO `object_spawns` VALUES ('66', 'hilux1_civil_3_open_EP1', '[326,[9615.27,6521.02,0.002]]', null);
+INSERT INTO `object_spawns` VALUES ('67', 'VWGolf', '[204,[9689.23,8921.35,0.001]]', null);
+INSERT INTO `object_spawns` VALUES ('68', 'SUV_TK_CIV_EP1', '[228,[10321.9,12085.8,0.001]]', null);
+INSERT INTO `object_spawns` VALUES ('69', 'LandRover_CZ_EP1', '[202,[5075.77,12468.5,0.001]]', null);
+INSERT INTO `object_spawns` VALUES ('70', 'Skoda', '[248,[2715.5,10032.6,0.001]]', null);
+INSERT INTO `object_spawns` VALUES ('71', 'HMMWV', '[344,[1944.02,12468.3,0.001]]', null);
+INSERT INTO `object_spawns` VALUES ('72', 'tractor', '[247,[6606.28,9322.9,0.002]]', null);
+INSERT INTO `object_spawns` VALUES ('73', 'tractor', '[314,[12523.6,4338.32,0.001]]', null);
+INSERT INTO `object_spawns` VALUES ('74', 'hilux1_civil_2_covered', '[139,[9419.81,4045.35,0.001]]', null);
+INSERT INTO `object_spawns` VALUES ('75', 'ATV_US_EP1', '[352,[7817.9,3532.67,0.001]]', null);
+INSERT INTO `object_spawns` VALUES ('76', 'ATV_US_EP1', '[59,[5823.91,4978.11,0.001]]', null);
+INSERT INTO `object_spawns` VALUES ('77', 'M1030', '[323,[5003.47,5562.11,0.002]]', null);
+INSERT INTO `object_spawns` VALUES ('78', 'M1030', '[322,[4554.07,6405.57,0.002]]', null);
+INSERT INTO `object_spawns` VALUES ('79', 'Old_bike_TK_CIV_EP1', '[132,[3718.23,6013.37,0.001]]', null);
+INSERT INTO `object_spawns` VALUES ('80', 'Old_bike_TK_CIV_EP1', '[276,[2282.28,5373.99,0.001]]', null);
+INSERT INTO `object_spawns` VALUES ('81', 'Old_bike_TK_CIV_EP1', '[206,[1894.84,3896.62,0.002]]', null);
+INSERT INTO `object_spawns` VALUES ('82', 'Old_bike_TK_CIV_EP1', '[36,[1115.4,2247.52,0.001]]', null);
+INSERT INTO `object_spawns` VALUES ('83', 'Old_bike_TK_CIV_EP1', '[297,[3614.31,2225.83,0.001]]', null);
+INSERT INTO `object_spawns` VALUES ('84', 'Volha_1_TK_CIV_EP1', '[329,[10450,8866.46,0.001]]', null);
+INSERT INTO `object_spawns` VALUES ('85', 'Volha_1_TK_CIV_EP1', '[310,[12672.5,12897.8,0.002]]', null);
+INSERT INTO `object_spawns` VALUES ('86', 'Volha_1_TK_CIV_EP1', '[192,[3984.59,9184.06,0.002]]', null);
+INSERT INTO `object_spawns` VALUES ('87', 'Volha_1_TK_CIV_EP1', '[147,[5763.34,8670.6,0.001]]', null);
+INSERT INTO `object_spawns` VALUES ('88', 'S1203_TK_CIV_EP1', '[77,[10898.9,11608,0.001]]', null);
+INSERT INTO `object_spawns` VALUES ('89', 'S1203_TK_CIV_EP1', '[128,[9132.12,7162.11,0.001]]', null);
+INSERT INTO `object_spawns` VALUES ('90', 'V3S_Civ', '[165,[8553.66,8353.09,0.001]]', null);
+INSERT INTO `object_spawns` VALUES ('91', 'VWGolf', '[24,[10415.5,2567.03,0.039]]', null);
+INSERT INTO `object_spawns` VALUES ('92', 'Lada2', '[185,[8860.32,2883.55,8.545e-04]]', null);
+INSERT INTO `object_spawns` VALUES ('93', 'Ikarus', '[83,[2008.02,2262.69,0.001]]', null);
+INSERT INTO `object_spawns` VALUES ('94', 'Old_moto_TK_Civ_EP1', '[245,[3204.73,4548.16,0.001]]', null);
+INSERT INTO `object_spawns` VALUES ('95', 'Old_moto_TK_Civ_EP1', '[211,[2526.91,7561.16,0.002]]', null);
+INSERT INTO `object_spawns` VALUES ('96', 'TT650_TK_CIV_EP1', '[47,[1975.27,9150.2,0.001]]', null);
+INSERT INTO `object_spawns` VALUES ('97', 'TT650_TK_CIV_EP1', '[184,[4203.95,10344.7,0.001]]', null);
+INSERT INTO `object_spawns` VALUES ('98', 'S1203_ambulance_EP1', '[162,[5599.2,12035,0.001]]', null);
+INSERT INTO `object_spawns` VALUES ('99', 'datsun1_civil_1_open', '[38,[8074.92,11256,0.002]]', null);
+INSERT INTO `object_spawns` VALUES ('100', 'tractor', '[332,[6922.72,10751.2,0.001]]', null);
 
 -- ----------------------------
 -- Table structure for `player_data`
@@ -236,7 +272,7 @@ CREATE TABLE `player_login` (
   `Action` tinyint(3) NOT NULL DEFAULT '0',
   `Datestamp` datetime DEFAULT NULL,
   PRIMARY KEY (`ID`)
-) ENGINE=MyISAM AUTO_INCREMENT=43 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=54 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of player_login
@@ -250,55 +286,30 @@ DELIMITER ;;
 CREATE DEFINER=`root`@`` PROCEDURE `pCleanup`()
 BEGIN
 
-	CALL pCleanupOOB();
+ CALL pCleanupOOB();
 
-	DELETE
-		FROM object_data 
-		WHERE Damage = '1';	
+ DELETE
+  FROM object_data 
+  WHERE Damage = '1'; 
 
-	DELETE
-		FROM object_data
-		WHERE DATE(Datestamp) < CURDATE() - INTERVAL 8 DAY
-			AND Classname != 'dummy'
-			AND Classname != 'TentStorage'
-			AND Classname != 'Hedgehog_DZ'
-			AND Classname != 'Wire_cat1'
-			AND Classname != 'Sandbag1_DZ'
-			AND Classname != 'TrapBear';
+ DELETE
+  FROM object_data
+  WHERE DATE(object_data.Datestamp) < CURDATE() - INTERVAL 9 DAY
+   AND CharacterID = 0
+   AND (Inventory = '[]'
+   OR (Inventory = '[[[],[]],[[],[]],[[],[]]]'
+   AND Classname = 'TentStorage'));
 
-	DELETE
-		FROM object_data
-		USING object_data, character_data
-		WHERE object_data.Classname = 'TentStorage'
-			AND object_data.CharacterID = character_data.CharacterID
-			AND character_data.Alive = 0
-			AND DATE(character_data.Datestamp) < CURDATE() - INTERVAL 4 DAY;
-
-	DELETE
-		FROM object_data
-		WHERE Classname = 'TentStorage'
-			AND DATE(Datestamp) < CURDATE() - INTERVAL 8 DAY
-			AND Inventory = '[[[],[]],[[],[]],[[],[]]]';
-
-	DELETE
-		FROM object_data
-		WHERE Classname = 'Wire_cat1'
-			AND DATE(Datestamp) < CURDATE() - INTERVAL 3 DAY;
-
-	DELETE
-		FROM object_data
-		WHERE Classname = 'Hedgehog_DZ'
-			AND DATE(Datestamp) < CURDATE() - INTERVAL 4 DAY;
-
-	DELETE
-		FROM object_data
-		WHERE Classname = 'Sandbag1_DZ'
-			AND DATE(Datestamp) < CURDATE() - INTERVAL 8 DAY;
-
-	DELETE
-		FROM object_data
-		WHERE Classname = 'TrapBear'
-			AND DATE(Datestamp) < CURDATE() - INTERVAL 5 DAY;
+ UPDATE object_data, character_data
+  SET object_data.characterID = 0, object_data.Datestamp = CURDATE()
+  WHERE object_data.CharacterID = character_data.CharacterID
+   AND character_data.Alive = 0
+   AND DATE(character_data.Datestamp) < CURDATE() - INTERVAL 3 DAY;
+   
+ UPDATE object_data, character_data
+  SET object_data.characterID = 0, object_data.Datestamp = CURDATE()
+  WHERE object_data.CharacterID = character_data.CharacterID
+   AND DATE(character_data.LastLogin) < CURDATE() - INTERVAL 7 DAY;
 
 END
 ;;
@@ -399,7 +410,7 @@ DELIMITER ;;
 CREATE DEFINER=`root`@`` PROCEDURE `pMain`()
 BEGIN
 
-	DECLARE iSpawnNumVeh SMALLINT(3) DEFAULT 64;		
+	DECLARE iSpawnNumVeh SMALLINT(3) DEFAULT 100;		
 	
 	CALL pCleanup();
 	CALL pFixMaxNum;
